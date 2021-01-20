@@ -1,2 +1,2 @@
 # RHCSA_Simple_Shell_Scripts
-A collection of simple Shell scripts used to pass RHCSA
+A collection of very simple Shell scripts used to pass RHCSA
