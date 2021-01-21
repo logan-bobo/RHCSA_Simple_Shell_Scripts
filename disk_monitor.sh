@@ -2,14 +2,14 @@
 
 #Scan for large directories and produce a report with a date and time stamp
 
-CHECK_DIRECTORIES=" /var/log /home"
+CHECK_DIRECTORIES=" /var/log /home "
 
 DATE=$(date '+%m%d%y')
 
 exec > disk_used_$DATE.rpt
 
 echo "Top 10 Disk Space usage"
-echo "Dor $CHECK_DIRECTORIES directories"
+echo "For $CHECK_DIRECTORIES directories"
 
 
 for DIR_CHECK in $CHECK_DIRECTORIES
